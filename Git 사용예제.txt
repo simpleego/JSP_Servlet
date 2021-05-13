@@ -139,3 +139,22 @@ To https://github.com/simpleego/JSP_Servlet.git
  * [new branch]      master -> master
 
 C:\Education\JSP_Servlet>
+
+이후에 새로 파일을 추가하고 이를 github에 반영하기 위해서 아래와 같은 절차를 수행한다.
+C:\Education\JSP_Servlet>git add "Git 사용예제.txt"
+
+C:\Education\JSP_Servlet>git commit -m "Add Project MVC model-2"
+[master 9b76090] Add Project MVC model-2
+ 1 file changed, 141 insertions(+)
+ create mode 100644 "Git \354\202\254\354\232\251\354\230\210\354\240\234.txt"
+
+C:\Education\JSP_Servlet>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.37 KiB | 484.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/simpleego/JSP_Servlet.git
+   bbfe821..9b76090  master -> master
+   
