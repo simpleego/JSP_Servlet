@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#content {
+		width: 500px;
+		margin: 50px auto;
+		border: 10px solid #ddd;
+		padding: 50px;
+	}
+</style>
+</head>
+<body>
+<div id="content">
+	<h3>공지사항 글쓰기</h3>
+	<form action="write.jsp" method="post">
+		제목 : <input type="text" name="title" /><br>
+		작성자 : <input type="text" name="writer_id" /><br>
+		내용 : <br>
+		<textarea rows="10" cols="50"  name="content">
+		
+		</textarea><br>
+		<input type="submit" value="등록" >
+	</form>
+	</div>
+</body>
+</html>
