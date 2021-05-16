@@ -1,0 +1,28 @@
+
+# 1단계 명령 프롬프트에서 git 확인
+
+C:\Users\simpl>git
+
+#2단계 git 버전 확인
+C:\Users\simpl>git --version
+
+#3단계 git 구성환경 설정(아이디와 이메일 등록)
+C:\Users\simpl>git config --global user.name simpleego@gmail.com
+C:\Users\simpl>git config --global user.email simpleego@gmail.com
+
+#4단계  git에 올리고자 하는 폴더를 생성하고 이동한 후에 
+        자신의 컴퓨터와 git에 개설된 주소를 연결시켜 git에 저장된 내용을 복사한다.
+C:\Users\simpl>git clone https://github.com/simpleego/XXXX
+
+#5단계 현재 폴더에 올리고자 하는 폴더을 복사하고 이를 추가한다.
+예)MVCProject2 폴더를 올린다고 가정한다.
+C:\Education\JSP_Servlet>git add MVCProject2
+
+
+#6단계 올리기전에 최종본을 commit하고 시점을 간단히 메모한다.
+C:\Education\JSP_Servlet>git commit -m "Add Project MVC model-1"
+
+#7단계 최종적으로 git에 올린다.
+C:\Education\JSP_Servlet>git push
+
+
